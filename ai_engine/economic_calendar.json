@@ -1,0 +1,596 @@
+[
+    {
+        "time": 1704461400.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1706880600.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1707332400.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1707831000.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1707917400.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1709299800.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1710250200.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1710336600.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1710961200.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1712323800.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1714590000.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1714743000.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1715693400.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1717767000.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1718112600.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1718199000.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1718218800.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1720186200.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1721847600.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1722605400.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1723555800.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1723642200.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1725476400.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1725629400.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1726061400.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1728048600.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1729105200.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1730467800.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1731418200.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1731504600.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1732734000.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1733491800.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1733923800.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1735911000.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1736861400.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1738782000.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1738935000.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1739280600.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1739367000.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1741354200.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1741699800.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1741786200.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1742410800.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1743773400.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1746039600.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1746192600.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1747143000.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1747229400.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1749216600.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1749648600.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1749668400.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1751635800.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1753297200.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1754055000.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1755005400.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1755091800.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1756926000.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1757079000.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1759498200.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1760448600.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1760554800.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1762522200.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1762867800.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1762954200.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1764183600.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1764941400.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1767360600.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1768311000.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1768397400.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1770231600.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1770384600.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1770816600.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1772803800.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1773235800.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1773860400.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1775223000.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1776173400.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1777489200.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1777642200.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1778592600.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1778679000.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1780666200.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1781118000.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1783085400.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1784035800.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1784746800.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1786109400.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1786455000.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1786541400.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1788375600.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1788528600.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1790947800.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1791898200.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1791984600.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1792004400.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1793971800.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1794403800.0,
+        "event": "USD Consumer Price Index (CPI) MoM/YoY",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1795633200.0,
+        "event": "USD FOMC Interest Rate Decision & Press Conference",
+        "country": "USD",
+        "impact": "HIGH"
+    },
+    {
+        "time": 1796391000.0,
+        "event": "USD Non-Farm Payrolls & Unemployment Rate",
+        "country": "USD",
+        "impact": "HIGH"
+    }
+]

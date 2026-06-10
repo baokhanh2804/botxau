@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Tùy chỉnh thanh cuộn đẹp kiểu Cyberpunk/Dark */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e334d;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e5a93b;
+}
+
+/* Glassmorphism Styles */
+.glass {
+  background: rgba(23, 26, 38, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-gold {
+  background: rgba(229, 169, 59, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(229, 169, 59, 0.15);
+}
+
+/* Subtle pulse border animation for active states */
+@keyframes pulse-border {
+  0%, 100% {
+    border-color: rgba(229, 169, 59, 0.2);
+  }
+  50% {
+    border-color: rgba(229, 169, 59, 0.8);
+  }
+}
+
+.active-glow {
+  animation: pulse-border 2s infinite;
+}

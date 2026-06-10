@@ -1,0 +1,26 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases and configurations
+backend/botxau.db
+backend/.env
+backend/botxau.db-journal
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Local logs
+*.log
+live_bot.log
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
