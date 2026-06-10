@@ -15,10 +15,10 @@ class Settings(BaseSettings):
     DATABASE_URL: str = f"sqlite:///{BASE_DIR}/botxau.db"
 
     # Cấu hình MetaTrader 5
-    MT5_MOCK: bool = False  # Mặc định bật MOCK để chạy thử không lỗi trên máy không có MT5
-    MT5_LOGIN: int = 25541259
-    MT5_PASSWORD: str = "33@9dGcm"
-    MT5_SERVER: str = "VantageMarkets-Demo"
+    MT5_MOCK: bool = True  # Mặc định bật MOCK để chạy thử không lỗi trên máy không có MT5
+    MT5_LOGIN: int = 0
+    MT5_PASSWORD: str = ""
+    MT5_SERVER: str = ""
     MT5_PATH: str = "" # Đường dẫn tới terminal64.exe của MT5 nếu cần thiết
 
     # Cấu hình Quản trị rủi ro (Risk Management)
