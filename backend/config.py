@@ -27,6 +27,7 @@ class Settings(BaseSettings):
     RISK_DEFAULT_LOT_SIZE: float = 0.01        # Kích thước lot mặc định nếu không tính được lot động
     RISK_MAX_LOT_SIZE: float = 1.0             # Giới hạn kích thước lot lớn nhất để tránh lỗi ngón tay béo (fat-finger)
     RISK_MAX_OPEN_POSITIONS: int = 5           # Tối đa 5 vị thế mở cùng một lúc cho Vàng
+    RISK_FIXED_LOT: float = 0.0                # Số lot cố định (set > 0 để dùng lot cố định, set = 0.0 để dùng lot động theo SL)
     
     # Cấu hình Bộ lọc AI
     AI_FILTER_ENABLED: bool = True

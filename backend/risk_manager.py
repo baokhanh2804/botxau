@@ -89,6 +89,11 @@ class RiskManager:
                   Risk_Per_Lot = Points_To_SL * Contract_Size (1 Lot Vàng = 100 Ounces)
                   Lot_Size = Risk_Amount / Risk_Per_Lot
         """
+        # Nếu cấu hình số lot cố định > 0 thì dùng luôn số lot cố định
+        if settings.RISK_FIXED_LOT > 0:
+            final_lot = max(0.01, min(settings.RISK_FIXED_LOT, settings.RISK_MAX_LOT_SIZE))
+            return round(final_lot, 2)
+
         if not stop_loss or entry_price == stop_loss:
             return settings.RISK_DEFAULT_LOT_SIZE
 
