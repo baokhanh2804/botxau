@@ -90,11 +90,13 @@ class LiveBot:
         df["atr"] = true_range.rolling(14).mean()
 
         last_row = df.iloc[-1]
-        prev_row = df.iloc[-2]
+        prev_row = df.iloc[-2]     # Nen vua dong cua
+        prev_prev_row = df.iloc[-3] # Nen truoc do
         
         return (
             float(prev_row["close"]), 
             float(prev_row["rsi"]), 
+            float(prev_prev_row["rsi"]),
             float(prev_row["ema20"]), 
             float(prev_row["atr"])
         )
@@ -145,22 +147,24 @@ class LiveBot:
         if not indicator_data:
             return
 
-        close_price, rsi_val, ema_val, atr_val = indicator_data
-        logger.info(f"[BOT] Ket qua nen vua dong: Gia dong={close_price:.2f} | RSI={rsi_val:.2f} | EMA20={ema_val:.2f} | ATR={atr_val:.2f}")
+        close_price, rsi_val, prev_rsi_val, ema_val, atr_val = indicator_data
+        logger.info(f"[BOT] Ket qua nen vua dong: Gia dong={close_price:.2f} | RSI={rsi_val:.2f} (Truoc do={prev_rsi_val:.2f}) | EMA20={ema_val:.2f} | ATR={atr_val:.2f}")
 
         sl_distance = 2.0 * atr_val
         tp_distance = 3.0 * atr_val
 
-        if rsi_val < 35 and close_price > ema_val:
+        # BUY: RSI nen truoc do qua ban (< 35) + Gia dong nen vua dong cua vuot EMA20
+        if prev_rsi_val < 35 and close_price > ema_val:
             sl = close_price - sl_distance
             tp = close_price + tp_distance
-            logger.info(f"[BOT] [SIGNAL] TIN HIEU BUY! Gia dong vuot EMA20 khi RSI qua ban. SL={sl:.2f}, TP={tp:.2f}")
+            logger.info(f"[BOT] [SIGNAL] TIN HIEU BUY! Gia dong vuot EMA20 khi RSI truoc do qua ban. SL={sl:.2f}, TP={tp:.2f}")
             self.send_signal_to_webhook("BUY", close_price, sl, tp)
 
-        elif rsi_val > 65 and close_price < ema_val:
+        # SELL: RSI nen truoc do qua mua (> 65) + Gia dong nen vua dong cua cat duoi EMA20
+        elif prev_rsi_val > 65 and close_price < ema_val:
             sl = close_price + sl_distance
             tp = close_price - tp_distance
-            logger.info(f"[BOT] [SIGNAL] TIN HIEU SELL! Gia dong duoi EMA20 khi RSI qua mua. SL={sl:.2f}, TP={tp:.2f}")
+            logger.info(f"[BOT] [SIGNAL] TIN HIEU SELL! Gia dong duoi EMA20 khi RSI truoc do qua mua. SL={sl:.2f}, TP={tp:.2f}")
             self.send_signal_to_webhook("SELL", close_price, sl, tp)
         else:
             logger.info("[BOT] Khong co tin hieu thoa man chien luoc. Cho nen tiep theo...")
